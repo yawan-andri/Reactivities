@@ -3393,11 +3393,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\C_Sharp\\Reactivities\\API\\API.csproj",
+      "projectUniqueName": "d:\\Programming\\C_Sharp\\Reactivities\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Programming\\C_Sharp\\Reactivities\\API\\API.csproj",
+      "projectPath": "d:\\Programming\\C_Sharp\\Reactivities\\API\\API.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\C_Sharp\\Reactivities\\API\\obj\\",
+      "outputPath": "d:\\Programming\\C_Sharp\\Reactivities\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3421,8 +3421,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Programming\\C_Sharp\\Reactivities\\Application\\Application.csproj": {
-              "projectPath": "D:\\Programming\\C_Sharp\\Reactivities\\Application\\Application.csproj"
+            "d:\\Programming\\C_Sharp\\Reactivities\\Application\\Application.csproj": {
+              "projectPath": "d:\\Programming\\C_Sharp\\Reactivities\\Application\\Application.csproj"
             }
           }
         }

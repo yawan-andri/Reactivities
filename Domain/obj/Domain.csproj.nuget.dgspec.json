@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\C_Sharp\\Reactivities\\Domain\\Domain.csproj": {}
+    "d:\\Programming\\C_Sharp\\Reactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\C_Sharp\\Reactivities\\Domain\\Domain.csproj": {
+    "d:\\Programming\\C_Sharp\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\C_Sharp\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\Programming\\C_Sharp\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Programming\\C_Sharp\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "d:\\Programming\\C_Sharp\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\C_Sharp\\Reactivities\\Domain\\obj\\",
+        "outputPath": "d:\\Programming\\C_Sharp\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
