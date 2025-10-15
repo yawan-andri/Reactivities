@@ -3393,11 +3393,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\C_Sharp\\Reactivities\\api\\API.csproj",
+      "projectUniqueName": "D:\\Programming\\C_Sharp\\Reactivities\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Programming\\C_Sharp\\Reactivities\\api\\API.csproj",
+      "projectPath": "D:\\Programming\\C_Sharp\\Reactivities\\API\\API.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\C_Sharp\\Reactivities\\api\\obj\\",
+      "outputPath": "D:\\Programming\\C_Sharp\\Reactivities\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3467,7 +3467,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

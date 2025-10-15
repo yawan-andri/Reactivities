@@ -1,8 +1,9 @@
 import { Box, Button, Card, CardActions, CardContent, Chip, Typography } from "@mui/material"
 import { useActivities } from "../../../lib/hooks/useActivities"
+import { Link } from "react-router";
 
 type Props = {
-    activity: Activity
+  activity: Activity
 }
 
 export default function ActivityCard({activity}: Props) {
@@ -21,8 +22,10 @@ export default function ActivityCard({activity}: Props) {
             <Chip label={activity.category} variant="outlined"></Chip>
             <Box display='flex' gap={1}>
               <Button 
-                onClick={() => {}} size="medium" 
-                variant="contained">
+                component={Link} to={`/activities/${activity.id}`}
+                size="medium" 
+                variant="contained"
+              >
                 View
               </Button>
               <Button 
