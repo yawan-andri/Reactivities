@@ -162,3 +162,5 @@ D:\Programming\C_Sharp\Reactivities\api\bin\Debug\net9.0\Microsoft.IdentityModel
 D:\Programming\C_Sharp\Reactivities\api\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
 D:\Programming\C_Sharp\Reactivities\api\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 D:\Programming\C_Sharp\Reactivities\api\bin\Debug\net9.0\AutoMapper.dll
+D:\Programming\C_Sharp\Reactivities\api\bin\Debug\net9.0\FluentValidation.dll
+D:\Programming\C_Sharp\Reactivities\api\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
