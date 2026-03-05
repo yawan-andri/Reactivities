@@ -9,6 +9,7 @@ import TextInput from "../../../app/shared/components/TextInput";
 import SelectInput from "../../../app/shared/components/SelectInput";
 import { categoryOptions } from "./categoryOptions";
 import DateTimeInput from "../../../app/shared/components/DateTimeInput";
+import LocationInput from "../../../app/shared/components/LocationInput";
 
 export default function ActivityForm() {
   const { control, reset, handleSubmit} = useForm<ActivitySchema>({
@@ -49,8 +50,9 @@ export default function ActivityForm() {
               name='category' 
             />
             <DateTimeInput label='Date' control={control} name='date' />
-            <TextInput label='City' control={control} name='city' />
-            <TextInput label='Venue' control={control} name='venue' />
+
+            <LocationInput control={control} label='Enter the Location' name="location" />
+
             <Box display='flex' justifyContent='end' gap={3}>
               <Button color='inherit'>Cancel</Button>
               <Button 
