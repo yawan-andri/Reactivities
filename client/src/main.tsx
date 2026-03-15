@@ -29,4 +29,4 @@ createRoot(document.getElementById('root')!).render(
             </StoreContext.Provider>
         </LocalizationProvider>
     </StrictMode>,
-  )
+)
