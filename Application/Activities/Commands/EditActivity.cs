@@ -15,7 +15,8 @@ public class EditActivity
         public required EditActivityDTO ActivityDTO { get; set; }
     }
 
-    public class Handler(AppDbContext context, IMapper mapper) : IRequestHandler<Command, Result<Unit>>
+    public class Handler(AppDbContext context, IMapper mapper) 
+        : IRequestHandler<Command, Result<Unit>>
     {
         public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
         {
