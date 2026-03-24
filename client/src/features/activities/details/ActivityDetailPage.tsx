@@ -4,13 +4,13 @@ import { useActivities } from "../../../lib/hooks/useActivities";
 import ActivityDetailsHeader from "./ActivityDetailsHeader";
 import ActivityDetailsInfo from "./ActivityDetailsInfo";
 import ActivityDetailsChat from "./ActivityDetailsChat";
-import ActivityDetailsSidebar from "./ActivityDetailsSideBar";
+import ActivityDetailsSidebar from "./ActivityDetailsSidebar";
 
 export default function ActivityDetailPage() {
     const {id} = useParams();
-    const {activity, isLoadingACtivity} = useActivities(id);
+    const {activity, isLoadingActivity} = useActivities(id);
 
-    if (isLoadingACtivity) return <Typography>Loading Activity...</Typography>
+    if (isLoadingActivity) return <Typography>Loading Activity...</Typography>
 
     if (!activity) return <Typography>Activity Not Found</Typography>
 
@@ -22,7 +22,7 @@ export default function ActivityDetailPage() {
                 <ActivityDetailsChat />
             </Grid2>
             <Grid2 size={4}>
-                <ActivityDetailsSidebar />
+                <ActivityDetailsSidebar activity={activity} />
             </Grid2>
         </Grid2>
     )
