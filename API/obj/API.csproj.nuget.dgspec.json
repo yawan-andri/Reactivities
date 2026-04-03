@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\C_Sharp\\Reactivities\\api\\API.csproj": {}
+    "D:\\Programming\\C_Sharp\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\C_Sharp\\Reactivities\\api\\API.csproj": {
+    "D:\\Programming\\C_Sharp\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\C_Sharp\\Reactivities\\api\\API.csproj",
+        "projectUniqueName": "D:\\Programming\\C_Sharp\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Programming\\C_Sharp\\Reactivities\\api\\API.csproj",
+        "projectPath": "D:\\Programming\\C_Sharp\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\C_Sharp\\Reactivities\\api\\obj\\",
+        "outputPath": "D:\\Programming\\C_Sharp\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -169,6 +169,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -303,6 +306,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
